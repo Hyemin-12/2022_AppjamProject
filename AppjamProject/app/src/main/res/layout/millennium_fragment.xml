@@ -16,8 +16,7 @@
             android:layout_marginTop="20dp"
             android:fontFamily="@font/notosansbold"
             android:gravity="center"
-            android:text="당신은 내가 제일 중요한
-"
+            android:text="당신은 내가 제일 중요한"
             android:textSize="18sp" />
 
         <TextView
@@ -60,7 +59,7 @@
             android:fontFamily="@font/notosansregular"
             android:textSize="20.5sp"
             android:layout_marginTop="-57sp"
-            android:layout_marginLeft="227dp"
+            android:layout_marginLeft="240dp"
             android:textColor="#FFC501"/>
 
         <TextView

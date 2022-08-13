@@ -37,9 +37,18 @@ class MainActivity : AppCompatActivity() {
         val rink2 = findViewById<ImageButton>(R.id.rink2)
         val rink3 = findViewById<ImageButton>(R.id.rink3)
         val rink4 = findViewById<ImageButton>(R.id.rink4)
+        val testBtn = findViewById<Button>(R.id.test_start_btn)
 
         btnprofile.setOnClickListener{
-            supportFragmentManager.beginTransaction().replace(R.id.frame, MyPageFragment()).setReorderingAllowed(true).addToBackStack(null).commit()
+            supportFragmentManager
+                .beginTransaction()
+                .replace(R.id.frame, MyPageFragment())
+                .commit()
+            testBtn.visibility = View.INVISIBLE
+            rink1.visibility = View.INVISIBLE
+            rink2.visibility = View.INVISIBLE
+            rink3.visibility = View.INVISIBLE
+            rink4.visibility = View.INVISIBLE
         }
         rink1.setOnClickListener {
             var intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=XcfGcrq1KYY"))
@@ -58,7 +67,8 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        findViewById<Button>(R.id.test_start_btn).setOnClickListener {
+
+        testBtn.setOnClickListener {
             val intent = Intent(this, TestStartActivity::class.java)
             startActivity(intent)
         }
@@ -91,16 +101,32 @@ class MainActivity : AppCompatActivity() {
                     startActivity(nextIntent)
                 }
                 R.id.baby_boom -> {
-                    supportFragmentManager.beginTransaction().replace(R.id.frame, fragment_baby).setReorderingAllowed(true).addToBackStack(null).commit()
+                    supportFragmentManager
+                        .beginTransaction()
+                        .replace(R.id.frame, fragment_baby)
+                        .commit()
+                    testBtn.visibility = View.INVISIBLE
                 }
                 R.id.generation_X -> {
-                    supportFragmentManager.beginTransaction().replace(R.id.frame, fragment_x).setReorderingAllowed(true).addToBackStack(null).commit()
+                    supportFragmentManager
+                        .beginTransaction()
+                        .replace(R.id.frame, fragment_x)
+                        .commit()
+                    testBtn.visibility = View.INVISIBLE
                 }
                 R.id.millennium -> {
-                    supportFragmentManager.beginTransaction().replace(R.id.frame, fragment_mille).setReorderingAllowed(true).addToBackStack(null).commit()
+                    supportFragmentManager
+                        .beginTransaction()
+                        .replace(R.id.frame, fragment_mille)
+                        .commit()
+                    testBtn.visibility = View.INVISIBLE
                 }
                 R.id.generation_Z -> {
-                    supportFragmentManager.beginTransaction().replace(R.id.frame, fragment_z).setReorderingAllowed(true).addToBackStack(null).commit()
+                    supportFragmentManager
+                        .beginTransaction()
+                        .replace(R.id.frame, fragment_z)
+                        .commit()
+                    testBtn.visibility = View.INVISIBLE
                 }
             }
             //어떤 메뉴를 선택했는지 구분하기 위해 식별자 부여

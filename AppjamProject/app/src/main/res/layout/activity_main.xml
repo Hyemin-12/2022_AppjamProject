@@ -61,7 +61,8 @@
             android:background="#FFC100"
             android:fontFamily="@font/notosansregular"
             android:text=" 테스트 하러 가기"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:visibility="visible"/>
 
         <LinearLayout
             android:layout_width="match_parent"

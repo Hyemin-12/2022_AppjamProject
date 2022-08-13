@@ -60,7 +60,7 @@
             android:fontFamily="@font/notosansregular"
             android:textSize="20.5sp"
             android:layout_marginTop="-57sp"
-            android:layout_marginLeft="223dp"
+            android:layout_marginLeft="240dp"
             android:textColor="#FFC501"/>
         <TextView
             android:layout_width="match_parent"
