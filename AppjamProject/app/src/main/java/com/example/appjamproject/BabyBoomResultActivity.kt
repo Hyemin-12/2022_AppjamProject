@@ -4,7 +4,9 @@ import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageButton
 import android.widget.ImageView
+import com.example.appjamproject.Test.TestStartActivity
 
 class BabyBoomResultActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,5 +22,9 @@ class BabyBoomResultActivity : Activity() {
             startActivity(intent)
         }
 
+        findViewById<ImageButton>(R.id.restart_btn).setOnClickListener {
+            val intent = Intent(this, TestStartActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

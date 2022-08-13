@@ -103,7 +103,7 @@
                     android:layout_marginRight="35dp"
                     android:background="@drawable/seo_taiji"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/na_moonhee" />
+                    android:src="@drawable/seo_taiji" />
             </LinearLayout>
 
             <LinearLayout
@@ -170,6 +170,7 @@
             android:orientation="horizontal">
 
             <ImageButton
+                android:id="@+id/restart_btn"
                 android:layout_width="100dp"
                 android:layout_height="52dp"
                 android:layout_gravity="center"
