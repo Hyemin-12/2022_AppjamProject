@@ -23,7 +23,8 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
         <TextView
             android:text="매우 그렇지 않다"
             android:layout_marginLeft="30dp"
@@ -53,7 +54,7 @@
                 android:id="@+id/nono1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="10dp" />
+                android:layout_marginEnd="10dp"/>
 
             <RadioButton
                 android:id="@+id/no1"
@@ -93,7 +94,8 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
             <TextView
                 android:text="매우 그렇지 않다"
                 android:layout_marginLeft="30dp"
@@ -163,7 +165,8 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
             <TextView
                 android:text="매우 그렇지 않다"
                 android:layout_marginLeft="30dp"
@@ -233,7 +236,8 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
             <TextView
                 android:text="매우 그렇지 않다"
                 android:layout_marginLeft="30dp"
@@ -303,7 +307,8 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
             <TextView
                 android:text="매우 그렇지 않다"
                 android:layout_marginLeft="30dp"
@@ -373,7 +378,8 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
             <TextView
                 android:text="매우 그렇지 않다"
                 android:layout_marginLeft="30dp"
@@ -443,7 +449,8 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
             <TextView
                 android:text="매우 그렇지 않다"
                 android:layout_marginLeft="30dp"
@@ -513,7 +520,8 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
             <TextView
                 android:text="매우 그렇지 않다"
                 android:layout_marginLeft="30dp"
@@ -583,7 +591,8 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
             <TextView
                 android:text="매우 그렇지 않다"
                 android:layout_marginLeft="30dp"
@@ -653,7 +662,8 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
             <TextView
                 android:text="매우 그렇지 않다"
                 android:layout_marginLeft="30dp"
@@ -716,7 +726,8 @@
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="30dp">
+            android:layout_margin="30dp"
+            android:layout_marginTop="5dp">
 
             <Button
                 android:id="@+id/previous_btn"

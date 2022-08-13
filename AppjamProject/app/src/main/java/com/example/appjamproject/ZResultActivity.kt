@@ -26,5 +26,22 @@ class ZResultActivity : Activity() {
             val intent = Intent(this, TestStartActivity::class.java)
             startActivity(intent)
         }
+        initShareButton()
+    }
+
+    private fun initShareButton() {
+        val shareButton = findViewById<ImageButton>(R.id.share_btn)
+        shareButton.setOnClickListener {
+            val shareIntent = Intent().apply {
+                action = Intent.ACTION_SEND
+                putExtra(
+                    Intent.EXTRA_TEXT,
+                    "나는 Z 세대야\uD83D\uDE0E\uD83D\uDE0E"
+                )
+                type = "text/plain"
+            }
+
+            startActivity(Intent.createChooser(shareIntent, null))
+        }
     }
 }

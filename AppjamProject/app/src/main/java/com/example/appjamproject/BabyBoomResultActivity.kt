@@ -26,5 +26,23 @@ class BabyBoomResultActivity : Activity() {
             val intent = Intent(this, TestStartActivity::class.java)
             startActivity(intent)
         }
+
+        initShareButton()
+    }
+
+    private fun initShareButton() {
+        val shareButton = findViewById<ImageButton>(R.id.share_btn)
+        shareButton.setOnClickListener {
+            val shareIntent = Intent().apply {
+                action = Intent.ACTION_SEND
+                putExtra(
+                    Intent.EXTRA_TEXT,
+                    "나는 베이비붐 세대야\uD83D\uDCA3\uD83D\uDCA5"
+                )
+                type = "text/plain"
+            }
+
+            startActivity(Intent.createChooser(shareIntent, null))
+        }
     }
 }

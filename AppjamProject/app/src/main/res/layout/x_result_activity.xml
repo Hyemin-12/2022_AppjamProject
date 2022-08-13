@@ -13,7 +13,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
             android:gravity="center"
-            android:text="당신은 ~~~~한"
+            android:text="당신은 트렌드에 엄격한"
             android:textColor="@color/black"
             android:textSize="18sp" />
 
@@ -181,6 +181,7 @@
                 android:src="@drawable/ic_baseline_refresh_24" />
 
             <ImageButton
+                android:id="@+id/share_btn"
                 android:layout_width="100dp"
                 android:layout_height="52dp"
                 android:layout_gravity="center"

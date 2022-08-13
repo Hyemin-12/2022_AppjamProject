@@ -23,7 +23,8 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
         <TextView
             android:text="매우 그렇지 않다"
             android:layout_marginLeft="30dp"
@@ -93,7 +94,8 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
             <TextView
                 android:text="매우 그렇지 않다"
                 android:layout_marginLeft="30dp"
@@ -163,7 +165,8 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
             <TextView
                 android:text="매우 그렇지 않다"
                 android:layout_marginLeft="30dp"
@@ -223,7 +226,7 @@
         </RadioGroup>
 
         <TextView
-            android:text="24. 나는 1717, 8282, 3535의 뜻을 안다."
+            android:text="24. 나는 내 목숨보다 소중히 여기는 존재가 있다."
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -233,7 +236,8 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
             <TextView
                 android:text="매우 그렇지 않다"
                 android:layout_marginLeft="30dp"
